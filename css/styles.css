@@ -1,48 +1,53 @@
+/*
 
+Color Palette: https://colorhunt.co/palette/8fbdd3e4d1b9be8c63a97155
+
+*/
 
 body {
   font-family: verdana, sans-serif;
-  background: green;
+  background: #8FBDD3;
   position: relative;
   text-align: center;
+  padding: 20px;
 }
 
 h1 {
   padding-top: 70px;
 }
 
-/*.top {
-  background: white;
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  position: absolute;
-  left: 100px;
-  top: 100px;
-}
-
-.bottom {
-  background: black;
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-
-}*/
-
-.top {
-  background: lightgreen;
+.profile {
   position: relative;
-  padding: 20px;
 }
 
-.top_cloud {
-  position: absolute;
-  right: 15%;
-  top: 40px;
+.top-container {
+  margin-bottom: 20px;
 }
 
-.bottom_cloud {
-  position: absolute;
-  left: 15%;
+.top-cloud {
+  position: relative;
+  left: 30%;
+}
+
+.bottom-cloud {
+  position: relative;
+  right: 30%;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+}
+
+.skill-picture {
+  max-width: 15%;
+  max-height: 15%;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
 
 }
