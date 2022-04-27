@@ -1,13 +1,33 @@
 
 
 body {
-  text-align: center;
   font-family: verdana, sans-serif;
+  background: green;
+  position: relative;
+  text-align: center;
 }
 
 h1 {
   padding-top: 70px;
 }
+
+/*.top {
+  background: white;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.bottom {
+  background: black;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+
+}*/
 
 .top {
   background: lightgreen;
