@@ -1,0 +1,28 @@
+
+
+body {
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+h1 {
+  padding-top: 70px;
+}
+
+.top {
+  background: lightgreen;
+  position: relative;
+  padding: 20px;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 15%;
+  top: 40px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 15%;
+
+}
