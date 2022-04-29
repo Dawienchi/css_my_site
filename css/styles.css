@@ -2,18 +2,36 @@
 
 Color Palette: https://colorhunt.co/palette/8fbdd3e4d1b9be8c63a97155
 
+16px = 100 % = 1em
+
+rem = ignore the parent size attributes
+
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 
 body {
   font-family: verdana, sans-serif;
-  background: #8FBDD3;
+  background: #E8F6EF;
   position: relative;
   text-align: center;
   padding: 20px;
 }
 
 h1 {
-  padding-top: 70px;
+  font-size: 5rem;
+  margin-top: 50px auto 0 auto;
+  color: #01937C;
+  line-height: 2;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #184D47;
+  font-weight: normal;
+
 }
 
 .profile {
@@ -31,7 +49,14 @@ h1 {
 
 .bottom-cloud {
   position: relative;
-  right: 30%;
+  top: 30%;
+  bottom: 30px;
+}
+
+.mountain {
+  position: relative;
+  margin: 15px auto 15px auto;
+
 }
 
 .profile-picture {
@@ -39,9 +64,26 @@ h1 {
   height: 200px;
 }
 
-.skill-picture {
-  max-width: 15%;
-  max-height: 15%;
+.skill-pasta {
+  width: 25%;
+  float: left;
+  padding: 30px;
+}
+
+.skill-climb {
+  width: 25%;
+  float: right;
+  padding: 30px;
+}
+
+.skills {
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .middle-container {
